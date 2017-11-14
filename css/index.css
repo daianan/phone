@@ -45,7 +45,7 @@ img {
 }
 
 .content {
-	margin-bottom: 1.125rem;
+	margin-bottom: 1.72rem;
 }
 
 .content_login {
@@ -196,9 +196,9 @@ span.now {
 .icon2,
 .icon3 {
 	display: inline-block;
-	width: 0.72rem;
-	height: 0.68rem;
-	margin-bottom: -0.08rem;
+	width: 18px;
+	height: 17px;
+	margin-bottom: -2px;
 }
 
 .icon1 {
