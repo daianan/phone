@@ -48,12 +48,20 @@ html{
                 height: 180/$sc+rem;
                 line-height: 180/$sc+rem;
                 background: #1183c9;
+                box-sizing: border-box;
+                padding: 0 30/$sc+rem;
                 li{
                     width: 200/$sc+rem;
                     float: left;
                     text-align: center;
                     height: 100%;
-                    margin: 0 14/$sc+rem;
+                    margin: 0 22/$sc+rem;
+                    &:nth-child(1){
+                        margin-left: 0px;
+                    }
+                    &:nth-child(3){
+                        margin-right: 0px;
+                    }
                     a{
                         width: 100%;
                         display: inline-block;
@@ -61,6 +69,7 @@ html{
                         line-height: 68/$sc+rem;
                         font-size: 40px;
                         color: #fafafa;
+                        text-align: center;
                     }
                     a.selected{
                         border: 1px solid #eee;
